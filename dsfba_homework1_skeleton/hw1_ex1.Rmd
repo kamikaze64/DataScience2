@@ -1,0 +1,23 @@
+#### Exercise 1: Setup
+
+__1.a__ Install the tidyverse and knitr.
+
+```{r, message = FALSE}
+
+### your code goes here
+install.packages("tidyverse")
+install.packages("knitr")
+```
+
+__1.b__ Load the `tidyverse`, `knitr`, and set the precision to 2 digits.
+
+```{r, message=FALSE}
+
+### your code goes here
+
+library(tidyverse)
+library(knitr)
+options(digits=2)
+
+
+```
